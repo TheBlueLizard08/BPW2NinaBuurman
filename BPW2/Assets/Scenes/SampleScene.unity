@@ -301,7 +301,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 1692479411, guid: 614ae72eac4371142a57562bca824963, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 6.616667, y: 16.2}
   m_AdaptiveModeThreshold: 0.5
@@ -317,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903675768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.82, y: 2.38, z: -5.58}
+  m_LocalPosition: {x: -2.4, y: -1.8, z: -5.58}
   m_LocalScale: {x: 0.65775764, y: 0.65775764, z: 0.65775764}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Walk
-      speed","value":{"$content":-0.005,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      speed","value":{"$content":0.01,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &913843264
@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &913843265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -554,7 +554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1172046508
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -760,7 +760,7 @@ Transform:
   m_GameObject: {fileID: 1731863420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.1, y: 0.7, z: 17.8}
-  m_LocalScale: {x: 0.60121703, y: 0.60121703, z: 0.60121703}
+  m_LocalScale: {x: 1.6268331, y: 1.6268331, z: 1.6268331}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
